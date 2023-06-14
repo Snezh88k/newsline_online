@@ -1,0 +1,9 @@
+.contentImage {
+  height: 200px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: start;
+  padding-left: 10px;
+}

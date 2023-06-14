@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.wrapper img {
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.wrapper img:nth-child(3) {
+  padding-top: 3px;
+}

@@ -1,0 +1,67 @@
+.wrapper {
+  width: 900px;
+  min-height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(255 255 255);
+  box-shadow: 2px 2px 7px rgba(158, 158, 158, 0.555);
+  opacity: 0;
+  animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contentWrapper {
+  padding: 10px;
+}
+
+.authorInfo img {
+  width: 40px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authorInfo {
+  display: flex;
+}
+
+.authorName {
+  margin-left: 20px;
+  font-weight: 500;
+  color: #808080;
+}
+
+.content {
+  height: 50px;
+  overflow: hidden;
+  padding: 10px;
+  text-overflow: ellipsis;
+  text-align: start;
+}
+
+.content.expand {
+  height: fit-content;
+}
+
+.expandButton {
+  border: none;
+  background-color: inherit;
+  font-weight: 600;
+  color: rgba(117, 117, 117, 0.733);
+}
+
+.main {
+  display: flex;
+}
