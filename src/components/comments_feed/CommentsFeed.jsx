@@ -16,7 +16,7 @@ export default React.memo(function CommentsFeed() {
 
   useEffect(() => {
     dispatch(fetchPostMessage());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     const interval = setInterval(() => {

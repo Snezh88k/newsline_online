@@ -4,6 +4,6 @@
 
 .wrapper {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding-left: 10px;
 }
